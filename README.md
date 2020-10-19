@@ -37,21 +37,28 @@ In the linked chart, the top row contains the revised results and the bottom has
 
 This did not impact any schools other than Thomas High.
 
-In Thomas, the results were a bit surprising:
-- dropping the suspect scores **increased** the average math and reading scores by a fair bit (7-10 points)
-- dropping the suspect scores **decreased** the passing rates by a lot (about 30%)
-This is partly due to the methodology; the students whose scores were dropped are still counted in the denominator for the passing percent.
+In Thomas, excluding the 9th grade caused a small drop in the overall passing rate (a fraction of a percent), a 4% drop in the reading passing percent (97 down to 93) and almost no impact on the math passing rate. 
 
-### mpact on thomas compared to other schools
+### impact on thomas compared to other schools
 
-With the results excluded, Thomas drops out of the top 5.
+[Top 5 schools](Resources/top_schools_new.png)
+
+With the results excluded, Thomas still ranks as the #2 school in the district by overall pass rate
 
 ### Other Impacts
--- math and reading scores by grade: impacts only Thomas
--- scores by school spending
--- scores by school sized
--- scores by school type
+-- math and reading scores by grade: impacts only Thomas, shows NaN instead of actual grades for the 9th grade
+-- scores by school spending: 
+--- [by Spending](Resources/by_spending_new.png)
+--- minor impact: for the $30-644 range, the % passing rading fell from 84 to 83. All other metrics stay the same
+-- scores by school size : only change is in Medium schools, % passing reading dropped from 97 to 96%
+    [by_Size](Resources/by_size_new.png)
+-- scores by school type: Charter reading pass rate dropped from 97 to 96%, all else stayed the same
+     [by_Type](Resources/by_type_new.png)
 
-** Summary
-- list 4 major changed in teh analysis after math, reading scores replaced with NaN
+## Summary
+
+The major change (other than to the Thomas 9th graders) was the reading pass rate. This changed enouigh to be noticeable for Thomas High and other grouping including Thomas, i.e.
+- School in the 2nd highest per-pupil spending bracket
+- Medium sized schools and
+- Charter schools
 
