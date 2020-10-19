@@ -32,6 +32,7 @@ In the linked chart, the top row contains the revised results and the bottom has
 ### impact on school summary
 
 [School Level Results - New](Resources/school_results_new.png)
+
 [School Level Results - Original](Resources/school_results_orig.png)
 
 This did not impact any schools other than Thomas High.
@@ -41,10 +42,12 @@ In Thomas, the results were a bit surprising:
 - dropping the suspect scores **decreased** the passing rates by a lot (about 30%)
 This is partly due to the methodology; the students whose scores were dropped are still counted in the denominator for the passing percent.
 
-- impact on thomas compared to other schools
+### mpact on thomas compared to other schools
 
-- how impacts
--- math and reading scores by grade
+With the results excluded, Thomas drops out of the top 5.
+
+### Other Impacts
+-- math and reading scores by grade: impacts only Thomas
 -- scores by school spending
 -- scores by school sized
 -- scores by school type
