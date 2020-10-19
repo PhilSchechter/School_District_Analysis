@@ -38,6 +38,7 @@ In the linked chart, the top row contains the revised results and the bottom has
 This did not impact any schools other than Thomas High.
 
 In Thomas, excluding the 9th grade caused a small drop in the overall passing rate (a fraction of a percent), a 4% drop in the reading passing percent (97 down to 93) and almost no impact on the math passing rate. 
+<<<<<<< HEAD
 
 ### impact on thomas compared to other schools
 
@@ -61,4 +62,30 @@ The major change (other than to the Thomas 9th graders) was the reading pass rat
 - School in the 2nd highest per-pupil spending bracket
 - Medium sized schools and
 - Charter schools
+=======
+
+### impact on thomas compared to other schools
+
+[Top 5 schools](Resources/top_schools_new.png)
+
+With the results excluded, Thomas still ranks as the #2 school in the district by overall pass rate
+
+### Other Impacts
+-- math and reading scores by grade: impacts only Thomas, shows NaN instead of actual grades for the 9th grade
+-- scores by school spending: 
+--- [by Spending](Resources/by_spending_new.png)
+--- minor impact: for the $30-644 range, the % passing rading fell from 84 to 83. All other metrics stay the same
+-- scores by school size : only change is in Medium schools, % passing reading dropped from 97 to 96%
+    [by_Size](Resources/by_size_new.png)
+-- scores by school type: Charter reading pass rate dropped from 97 to 96%, all else stayed the same
+     [by_Type](Resources/by_type_new.png)
+
+## Summary
+
+The major change (other than to the Thomas 9th graders) was the reading pass rate. This changed enouigh to be noticeable for Thomas High and other grouping including Thomas, i.e.
+- School in the 2nd highest per-pupil spending bracket
+- Medium sized schools and
+- Charter schools
+
+>>>>>>> b947f9beef9d2c75f1099b78b1103071780ede08
 
